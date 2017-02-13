@@ -1,0 +1,28 @@
+﻿//using System.Collections;
+//using System.Collections.Generic;
+//using UnityEngine;
+//
+//
+//[System.Serializable]
+//public class FireScript : MonoBehaviour {
+//	public Transform prefab = Instantiate(Resources.Load("ProjetilInseticida"));
+//		
+//
+//	// Use this for initialization
+//	void Start () {
+//		
+//	}
+//	
+//	// Update is called once per frame
+//	void Update () {
+//		if (Input.GetMouseButtonDown (0) || Input.GetMouseButtonDown (1) || Input.GetMouseButtonDown (2)) {
+//			GameObject projetil = (GameObject)Instantiate(prefab, 
+//				GameObject.Find("SpawnProjetil").transform.postion, 
+//				Quaternion.identity);
+//			if (projetil.gameObject.tag == "Enemy")
+//			{
+//				Destroy(gameObject);
+//			}
+//		}
+//		}
+//}
